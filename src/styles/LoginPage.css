@@ -1,0 +1,48 @@
+#login-page .page-content-wrapper {
+    background-color: #22222277;
+    color: var(--light-text-color);
+}
+
+#login-page .logo-rat {
+    max-width: 60px;
+}
+
+
+.login-form .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.login-form .wrapper p {
+    margin-top: 1rem;
+} 
+
+.login-form .form {
+    border: solid 1px #555;
+    border-radius: var(--border-radius);
+    padding: 1.2rem;
+    -ms-flex-preferred-size: 100vw;
+    flex-basis: 100vw;
+}
+
+#details img{
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill-available;
+}
+
+.or {
+    margin: 1rem 0;
+}
+
+.more-link{font-size: 0.8rem;}
+
+.error-message{
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: bold;
+}

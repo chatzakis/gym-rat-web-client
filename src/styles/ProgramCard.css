@@ -1,0 +1,39 @@
+.program-card{
+    background-color: var(--light-background);
+    border-radius: var(--border-radius);
+    border: solid;
+    border-color: var(--border-color);
+    border-width: var(--card-border);
+    padding: 5px;
+}
+
+.program-card img{
+    width: 24px;
+}
+
+.program-card img:not(.filled){
+    filter: brightness(0.7);
+}
+
+.program-card table{
+    width: 100%;
+}
+
+.program-card thead{
+    font-size: 1.5rem;
+}
+
+.program-card a{
+    text-decoration: none;
+    color: #222;
+}
+
+.goal-row {
+    border-top: solid 1px var(--hr-color);
+}
+
+.program-card td,
+.program-card th{
+    padding: 6px 8px;
+    width: 33%;
+}

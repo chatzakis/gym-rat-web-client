@@ -1,0 +1,22 @@
+#profile-page{
+    color: var(--light-text-color);
+}
+
+.profile-section {width: fit-content;}
+
+.profile-section .btn-outline-secondary{
+    color: var(--light-text-color);
+    border-color: var(--light-background);;
+}
+
+.profile-section img{
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill-available;
+}
+
+@media (max-width:600px) {
+    .profile-section{
+        width: 100%;
+    }
+}

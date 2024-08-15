@@ -1,0 +1,62 @@
+.entry-card{
+    background-color: var(--primary-color);
+    border-radius: var(--border-radius);
+    border: solid;
+    border-color: var(--border-color);
+    border-width: var(--card-border);
+    padding: 5px;
+}
+
+.entry-card:nth-child(even){
+    background-color: var(--secondary-color);
+}
+
+.entry-card img{
+    width: 24px;
+}
+
+.entry-card a{
+    text-decoration: none;
+    color: var(--light-text-color);
+}
+
+.date-row td:nth-child(3){
+    font-weight: bold;
+}
+
+.name-row td:nth-child(3){
+    font-weight: bold;
+}
+
+.name-row td:nth-child(3):hover{
+    text-decoration: underline;
+}
+
+.entry-card td{
+    padding: 4px 8px;
+}
+
+.entry-card td:nth-child(1){
+    width: 15%;
+    font-size: 0.7rem;
+    color: #ffffff99;
+}
+
+.entry-card td:nth-child(2){
+    width: 10%;
+    opacity: 0.8;
+}
+
+.entry-card td:nth-child(3){
+    padding-left: 20px;
+    width: 75%;
+    font-size: 1.2rem;
+}
+
+.entry-card tr:hover{
+    background-color: #ffffff11;
+}
+
+.entry-card tr:hover td:nth-child(3){
+    color: LemonChiffon;
+}

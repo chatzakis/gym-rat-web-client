@@ -1,0 +1,31 @@
+/* Main Page */
+#main-page .categories-buttons img{
+    width: -webkit-fill-available;
+    width: -moz-available;
+    width: fill-available;
+}
+
+#chest {
+    border-bottom: solid 3px var(--chest);
+}
+#back {
+    border-bottom: solid 3px var(--back);
+}
+#shoulders {
+    border-bottom: solid 3px var(--shoulders);
+}
+#arms {
+    border-bottom: solid 3px var(--arms);
+}
+#abs {
+    border-bottom: solid 3px var(--abs);
+}
+#legs {
+    border-bottom: solid 3px var(--legs);
+}
+#aerobic {
+    border-bottom: solid 3px var(--aerobic);
+}
+#programs {
+    border-bottom: solid 3px var(--primary-color);
+}

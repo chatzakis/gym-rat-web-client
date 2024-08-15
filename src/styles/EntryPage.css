@@ -1,0 +1,30 @@
+.entry-form{
+    width: fit-content;
+    color: var(--light-text-color);
+}
+.entry-form img{
+    width: 32px;
+}
+
+.entry-form label{
+    width: 70px;
+}
+
+.entry-form input{
+    width: 400px;
+}
+
+.submit-response{
+    font-size: 1.5rem;
+}
+
+@media (max-width:600px) {
+  .entry-form{
+      width: 100vw;
+  }
+
+  .input-col{
+    margin-top: 5px;
+    flex: 1 1 100px;
+  }
+}

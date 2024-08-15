@@ -1,0 +1,43 @@
+.navbar{
+    background-color: var(--primary-color);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar a{
+    color: var(--light-text-color);
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+}
+
+.navbar-nav{
+    border-top: solid 1px var(--hr-color);
+}
+
+.nav-link{
+    color: var(--light-text-color);
+}
+
+.text-muted{
+    opacity: 0.8;
+}
+
+.username{
+    padding: 0.5rem;
+    color: var(--light-text-color);
+}
+
+.logout-btn{
+    border: none;
+    background: none;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    color: var(--bs-nav-link-color);
+}
+
+@media (min-width:768px) {
+    .navbar-nav{
+        border-top:none;
+    }
+}
